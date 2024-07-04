@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>forms</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+  .hover-button {
+  background-color: #3498db; 
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; 
+}
+
+.hover-button:hover {
+  background-color: pink; 
+}
+  .hovers-button {
+  background-color: #3498db; 
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; 
+}
+
+.hovers-button:hover {
+  background-color: green; 
+}
+
+}</style>
+  <body>
+      <h1 class="title">Student Registration form </h1>
+      <p>Kindly enter all the details</p>
+      <script src="script.js"></script>
+      <form>
+        <label><b>Student Roll number:</b></label><br>
+        <input type="text"  name="Student Roll number" value=""><br><br>
+        <label><b>Student Name:</b></label><br>
+        <input type="text"  name="Student Name" value=""><br><br>
+        <label><b>Student dept:</b></label><br>
+        <select name="cars" id="cars">
+          <option value="CSE">CSE</option>
+          <option value="ECE">ECE</option>
+          <option value="MECH">MECH</option>
+          <option value="AIDS">AIDS</option>
+  </select><br><br>
+        <label><b>10th percentage:</b></label><br>
+        <input type="text"  name="10th percentage" value=""><br><br>
+        <label><b>12th percentage:</b></label><br>
+        <input type="text"  name="12th percentage" value=""><br><br>
+        <label><b>Degree percentage:</b></label><br>
+        <input type="text" name="Degree percentage" value=""><br><br>
+        <button class="hover-button">submit</button>
+        <button class="hovers-button">cancel</button>
+      </form>
+  </body>
+</html>
